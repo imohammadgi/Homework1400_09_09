@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+<div id="wrapper">
+
+    <header id="header" ></header>
+
+    <nav id="nav">
+        <ul class="nav-bar">
+            <li class="nav-item">
+                <a class="nav-button" href="">صفحه اصلی</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-button" href="">عکس ها</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-button" href="">تماس با ما</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-button" href="">درباره ما</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <aside id="aside"></aside>
+        <article id="article">
+
+            <p id="title">سلام به سایت ما خوش امدید</p>
+
+            <div class="buttons">
+                <p> html content
+                <button class="button" type="button" onclick="changecontent()">change</button>
+                </p>
+                <p>html attribute values
+                    <button class="button" type="button" onclick="changeattributr()">change</button>
+                </p>
+                <p>html styles
+                    <button class="button"  type="button" onclick="changestyle()">change</button>
+                </p>
+                <p>show html elements
+                    <button class="button" type="button" onclick="showelements()">change </button>
+                </p>
+                <p> hide html elements
+                    <button class="button" type="button" onclick="hideelements()">change</button>
+                </p>
+                <p>hide/show
+                    <button class="button" type="button" onclick="hideshowelements()">change</button>
+                </p>
+                <p>set css to title
+                    <button class="button" type="button" onclick="setcss()">change</button>
+                </p>
+            </div>
+
+            <div id="content">
+                <div class="image">
+                    <div class="animation"> <img src="images/image1.jpg" alt="تصویری موجود نیست."> </div>
+                </div>
+                <div class="image">
+                    <div class="animation"><img src="images/image2.jpg" alt="تصویری موجود نیست."></div>
+                </div>
+                <div class="image">
+                    <div class="animation"> <img src="images/image3.jpg" alt="تصویری موجود نیست."></div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <footer id="footer"></footer>
+
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>

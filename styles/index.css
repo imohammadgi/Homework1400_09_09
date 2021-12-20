@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+#nav{
+    width: 100%;
+    height: 40px;
+    background-color: darkblue;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-bar{
+    list-style-type: none;
+}
+
+.nav-item{
+    float: right;
+}
+
+.nav-button{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    line-height: 2;
+
+    transition: 0.5s all;
+}
+
+.nav-button:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aside{
+    width: 25%;
+    height:700px;
+    background-color: #4f4f4f;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+#article{
+    width: 75%;
+    height: 700px;
+    background-color: dimgrey;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    height:50%;
+}
+
+.image{
+    width: 30%;
+    height: 150px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.image img{
+    width: 100%;
+    height: 150px;
+}
+
+.animation{
+    animation-name: show;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+
+@keyframes show {
+    from{opacity: 0;}
+    to{opacity: 100%;}
+}
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.buttons{
+    margin: auto;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 230px;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    background-color: #bebebe;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    color: black;
+}
+
+.button{
+    background-color: #0000ff;
+    color: #b6b6b6;
+    width: 60px;
+    height: 25px;
+    float: right;
+}
+
+.p1{
+    background-color: #bebebe;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 10px;
+    border: solid black 2px;
+    border-radius: 10px;
+    text-align: center;
+
+}
